@@ -15,12 +15,6 @@ const Index = () => {
         <CardContent className="text-center">
           <p className="mb-4">This is a bare-bones application. Start building your amazing app here!</p>
           <Button variant="outline" className="mb-2">Get Started</Button>
-          <Button variant="outline" className="mb-2" onClick={() => {
-            console.log("Button clicked!");
-            toast({
-              title: "Button clicked!",
-            });
-          }}>Click Me</Button>
         </CardContent>
       </Card>
     </div>
