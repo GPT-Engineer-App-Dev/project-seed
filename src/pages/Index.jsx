@@ -1,6 +1,6 @@
 import React from "react";
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
@@ -12,6 +12,7 @@ const Index = () => {
           </CardHeader>
           <CardContent className="text-center">
             <p className="mb-4">This is a bare-bones application. Start building your amazing app here!</p>
+          <Button className="mt-4 bg-blue-500 text-white hover:bg-blue-700">Unique Button</Button>
           </CardContent>
         </Card>
       </div>
