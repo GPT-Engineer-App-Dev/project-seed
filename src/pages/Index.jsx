@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "@/components/Footer"; // Import the Footer component
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Index = () => {
@@ -15,7 +15,7 @@ const Index = () => {
           </CardContent>
         </Card>
       </div>
-      <Footer /> {/* Add the Footer component */}
+      
     </div>
   );
 };
