@@ -12,7 +12,8 @@ const Index = () => {
           </CardHeader>
           <CardContent className="text-center">
             <p className="mb-4">This is a bare-bones application. Start building your amazing app here!</p>
-          <Button className="mt-4 bg-blue-500 text-white hover:bg-blue-700">Unique Button</Button>
+            <p className="mb-4 italic">"I'm on a whiskey diet. I've lost three days already." - Tommy Cooper</p>
+            <Button className="mt-4 bg-blue-500 text-white hover:bg-blue-700">Unique Button</Button>
           </CardContent>
         </Card>
       </div>
