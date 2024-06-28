@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-between bg-gray-100">
+    <div className="h-screen w-screen flex flex-col items-center justify-between bg-gray-100 overflow-hidden">
       <div className="flex-grow flex items-center justify-center">
         <Card className="max-w-lg mx-auto">
           <CardHeader>
